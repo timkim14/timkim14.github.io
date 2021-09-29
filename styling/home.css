@@ -12,6 +12,6 @@ img {
 
 p {
     text-align:left;
-    left: 100px;
-    right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
