@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family:Inter;
+    background-color:black;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+ul#navbar{
+    list-style-type: none;
+    background-color: white;
+    width:100%;
+    margin:0 !important;
+    padding:0 !important;
+    overflow:hidden;
+}
+
+/*elements show up horizontally*/
+ul#navbar li{
+    float:right;
+}
+
+/*no underlined elements in navbar*/
+ul#navbar li a{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 40px 25px 35px;
+}
+
+ul#navbar li a:hover {
+    color: grey;
+}
+
+body{
+    margin:0;
+}
+
+
+.page-header {
+    font-size:44px;
+    text-align:center;
+}
+
+.page-subheader {
+    font-size: 30px;
+    text-align: center;
+}
+
+#short-bio {
+    border: 5px solid white;
+    padding: 10px 10px 10px 10px;
+    width:55%;
+    text-align: center;
+    margin: 0 auto;
+    /* text-shadow: */
+}
