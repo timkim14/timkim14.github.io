@@ -1,0 +1,133 @@
+html {
+    background-color:white;
+    color:black;
+    font-size:20px;
+}
+
+/*styling for navbar*/
+ul#navbar{
+    list-style-type: none;
+    background-color: white;
+    width:100%;
+    margin:0 !important;
+    padding:0 !important;
+    overflow:hidden;
+    border-bottom:solid 5px;
+}
+
+/*elements show up horizontally*/
+ul#navbar li{
+    float:right;
+}
+
+/*no underlined elements in navbar*/
+ul#navbar li a#photos{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 40px 25px 35px;
+}
+ul#navbar li a#reading{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 40px 25px 35px;
+}
+ul#navbar li a#writing{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 40px 25px 35px;
+}
+ul#navbar li a#projects{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 40px 25px 35px;
+}
+ul#navbar li a#about{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 40px 25px 35px;
+}
+ul#navbar li a#timkim{
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding: 25px 650px 25px 35px;
+}
+
+/*colored when hovered over*/
+ul#navbar li a:hover#photos {
+    background: -webkit-linear-gradient(#F88634, #FF2222);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul#navbar li a:hover#reading {
+    background: -webkit-linear-gradient(#314FBB, #31B3BB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul#navbar li a:hover#writing {
+    background: -webkit-linear-gradient(#C1CD34, #34CD3A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul#navbar li a:hover#about {
+    background: -webkit-linear-gradient(#4629F2, #F663E8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul#navbar li a:hover#projects {
+    background: -webkit-linear-gradient(#F11616, #0018F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*needed for navbar to fill up entire page width*/
+body{
+    margin:0;
+    
+}
+
+
+.gallery{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    height:90%;
+    width:100%;
+}
+
+img{
+    float:left;
+    width:650px;
+    height:500px;
+    margin:3%;
+    border:4px solid black;
+}
+
+.introtext{
+    float:right;
+    margin:5%;
+    padding:2.5%;
+    border:4px solid black;
+    text-align:center;
+}
+
+/*img{
+    width:37.5%;
+    margin: 2.5%;
+}
+
+p{
+    width: 47.5%;
+    margin: 2.5%;
+}*/
